@@ -28,7 +28,7 @@ If the model is not performing well, experiment with different architectures, re
 Visualize the training/validation loss and accuracy over epochs to understand the training process. Visualize some misclassified examples to gain insights into potential improvements.
 
 # Program:
-```
+```PY
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.models import Sequential
@@ -133,11 +133,14 @@ plt.show()
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/e9442c99-9767-4aec-bba7-e4c76641545d)
-![image](https://github.com/user-attachments/assets/36a59b80-055b-437e-9700-f4c92598db9f)
+<img width="568" height="405" alt="image" src="https://github.com/user-attachments/assets/420cfb13-1bd1-4b72-a6d8-644317b46e38" />
 
-![image](https://github.com/user-attachments/assets/132bc0a6-a1b7-4b9a-a5c2-e06f2feced06)
-![image](https://github.com/user-attachments/assets/f228a59d-13db-4221-a8db-0d6470f35685)
+<img width="603" height="257" alt="image" src="https://github.com/user-attachments/assets/2fdad216-35b0-4735-ae78-82e3a046d85a" />
+
+<img width="1341" height="627" alt="image" src="https://github.com/user-attachments/assets/d884a74a-fe39-4a14-9ee0-413f5a7d3c58" />
+
+<img width="1310" height="646" alt="image" src="https://github.com/user-attachments/assets/b549f1e5-3517-40e0-8e7a-cf4eb3dbbea4" />
+
 
 ## Result:
 Hence, The execution of an MNIST Dataset prediction is executed successfully.
